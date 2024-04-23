@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel>
             <StackPanel Margin="5">
-                <Button Height="50" Width="160" Padding="10">Teste</Button>
+                <Button Height="50" Width="160" Padding="10" Click="Button_Click">Teste</Button>
             </StackPanel>
             <StackPanel Margin="5">
                 <Button Height="50" Width="160" Padding="10">Teste2</Button>
