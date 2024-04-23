@@ -20,5 +20,13 @@ namespace WPFAppTest
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CadModels.CadModel cadModel = new CadModels.CadModel();
+            cadModel.Name = "Test";
+            MessageBox.Show(cadModel.Name);
+        }
+
     }
 }
